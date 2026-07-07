@@ -46,3 +46,19 @@ for ch in "snegha":
 
 for i in [1, 2, 3, 4, 5]:
         print(i)
+
+
+#FUNCTIONS
+def greet(name):
+        print("Hello, " + name + "!")
+greet("snegha")               
+def nameprint():
+    print("Hello World")
+nameprint()
+
+num1= input("Enter first number:")
+num2= input("Enter second number:")
+sum = int(num1) + int(num2)
+multiplication = int(num1) * int(num2)
+#print("Sum is :", sum)
+print("Multiplication is :", multiplication)    
